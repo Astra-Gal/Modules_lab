@@ -1,10 +1,12 @@
 from modules.task_list import *
 from modules.output import *
 import data.task_list as task
+import modules.input as input
 
 while (True):
     print_menu()
-    option = input("Select an option 1, 2, 3, 4, 5 or (Q)uit: ")
+    input.choose_option()
+ # option = input("Select an option 1, 2, 3, 4, 5 or (Q)uit: ")
     if (option.lower() == 'q'):
         break
     if option == '1':
