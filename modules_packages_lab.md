@@ -1,5 +1,4 @@
 # Lab - Modules and Packages
-
 ## Learning Objectives
 - practice breaking down code into modules and packages
 - refactoring code to use functions
